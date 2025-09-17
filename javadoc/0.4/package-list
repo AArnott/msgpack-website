@@ -1,6 +1,0 @@
-org.msgpack
-org.msgpack.annotation
-org.msgpack.object
-org.msgpack.packer
-org.msgpack.template
-org.msgpack.util.codegen

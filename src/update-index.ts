@@ -210,8 +210,8 @@ async function generate() {
   await fs.remove(dist);
   await fs.mkdirp(dist);
 
-  // copy static assets (css, js, images, ddoc, edoc, javadoc, rdoc, releases, etc.)
-  const staticDirs = ['css', 'js', 'images', 'ddoc', 'edoc', 'javadoc', 'rdoc', 'releases', 'maven2'];
+  // copy static assets (css, js, images, etc.)
+  const staticDirs = ['css', 'js', 'images', 'CNAME', 'favicon.ico'];
   for (const d of staticDirs) {
     const src = path.join(process.cwd(), d);
     if (await fs.pathExists(src)) {

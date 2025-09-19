@@ -1,7 +1,7 @@
-Contributing to msgpack.org
+Contributing to msgpack.io
 ==========================
 
-Thank you for helping maintain the msgpack.org website. This document explains how to build, run, test and deploy the site as it exists after migration to a TypeScript/npm toolchain.
+Thank you for helping maintain the msgpack.io website. This document explains how to build, run, test and deploy the site as it exists after migration to a TypeScript/npm toolchain.
 
 Prerequisites
 -------------

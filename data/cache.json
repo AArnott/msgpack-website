@@ -6,7 +6,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-c",
     "full_name": "msgpack/msgpack-c",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-c"
+    "html_url": "https://github.com/msgpack/msgpack-c",
+    "msgpack_stars": 3206
   },
   {
     "msgpack_lang": "PHP",
@@ -15,7 +16,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-php",
     "full_name": "msgpack/msgpack-php",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-php"
+    "html_url": "https://github.com/msgpack/msgpack-php",
+    "msgpack_stars": 784
   },
   {
     "msgpack_lang": "Go",
@@ -24,7 +26,8 @@
     "msgpack_repo_homepage": "https://msgpack.uptrace.dev/",
     "full_name": "vmihailenco/msgpack",
     "owner": "vmihailenco",
-    "html_url": "https://github.com/vmihailenco/msgpack"
+    "html_url": "https://github.com/vmihailenco/msgpack",
+    "msgpack_stars": 2557
   },
   {
     "msgpack_lang": "ECMA-262/JavaScript/TypeScript",
@@ -33,7 +36,8 @@
     "msgpack_repo_homepage": "https://msgpack.org/",
     "full_name": "msgpack/msgpack-javascript",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-javascript"
+    "html_url": "https://github.com/msgpack/msgpack-javascript",
+    "msgpack_stars": 1462
   },
   {
     "msgpack_lang": "Java",
@@ -42,7 +46,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-java",
     "full_name": "msgpack/msgpack-java",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-java"
+    "html_url": "https://github.com/msgpack/msgpack-java",
+    "msgpack_stars": 1451
   },
   {
     "msgpack_lang": "Python",
@@ -51,7 +56,8 @@
     "msgpack_repo_homepage": "https://msgpack.org/",
     "full_name": "msgpack/msgpack-python",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-python"
+    "html_url": "https://github.com/msgpack/msgpack-python",
+    "msgpack_stars": 2024
   },
   {
     "msgpack_lang": "C#",
@@ -60,7 +66,8 @@
     "msgpack_repo_homepage": "https://github.com/MessagePack-CSharp/MessagePack-CSharp",
     "full_name": "MessagePack-CSharp/MessagePack-CSharp",
     "owner": "MessagePack-CSharp",
-    "html_url": "https://github.com/MessagePack-CSharp/MessagePack-CSharp"
+    "html_url": "https://github.com/MessagePack-CSharp/MessagePack-CSharp",
+    "msgpack_stars": 6400
   },
   {
     "msgpack_lang": "Go",
@@ -69,7 +76,8 @@
     "msgpack_repo_homepage": "https://github.com/ugorji/go",
     "full_name": "ugorji/go",
     "owner": "ugorji",
-    "html_url": "https://github.com/ugorji/go"
+    "html_url": "https://github.com/ugorji/go",
+    "msgpack_stars": 1916
   },
   {
     "msgpack_lang": "Rust",
@@ -78,7 +86,8 @@
     "msgpack_repo_homepage": "https://github.com/3Hren/msgpack-rust",
     "full_name": "3Hren/msgpack-rust",
     "owner": "3Hren",
-    "html_url": "https://github.com/3Hren/msgpack-rust"
+    "html_url": "https://github.com/3Hren/msgpack-rust",
+    "msgpack_stars": 1304
   },
   {
     "msgpack_lang": "Go",
@@ -87,7 +96,8 @@
     "msgpack_repo_homepage": "https://github.com/tinylib/msgp",
     "full_name": "tinylib/msgp",
     "owner": "tinylib",
-    "html_url": "https://github.com/tinylib/msgp"
+    "html_url": "https://github.com/tinylib/msgp",
+    "msgpack_stars": 1872
   },
   {
     "msgpack_lang": "Ruby",
@@ -96,7 +106,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-ruby",
     "full_name": "msgpack/msgpack-ruby",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-ruby"
+    "html_url": "https://github.com/msgpack/msgpack-ruby",
+    "msgpack_stars": 773
   },
   {
     "msgpack_lang": "C#",
@@ -105,7 +116,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-cli",
     "full_name": "msgpack/msgpack-cli",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-cli"
+    "html_url": "https://github.com/msgpack/msgpack-cli",
+    "msgpack_stars": 844
   },
   {
     "msgpack_lang": "JavaScript",
@@ -114,7 +126,8 @@
     "msgpack_repo_homepage": "https://www.npmjs.com/package/msgpack-lite",
     "full_name": "kawanet/msgpack-lite",
     "owner": "kawanet",
-    "html_url": "https://github.com/kawanet/msgpack-lite"
+    "html_url": "https://github.com/kawanet/msgpack-lite",
+    "msgpack_stars": 1024
   },
   {
     "msgpack_lang": "Haskell",
@@ -123,7 +136,8 @@
     "msgpack_repo_homepage": "http://hackage.haskell.org/package/msgpack",
     "full_name": "msgpack/msgpack-haskell",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-haskell"
+    "html_url": "https://github.com/msgpack/msgpack-haskell",
+    "msgpack_stars": 139
   },
   {
     "msgpack_lang": "Node",
@@ -132,7 +146,8 @@
     "msgpack_repo_homepage": "https://github.com/mcollina/msgpack5",
     "full_name": "mcollina/msgpack5",
     "owner": "mcollina",
-    "html_url": "https://github.com/mcollina/msgpack5"
+    "html_url": "https://github.com/mcollina/msgpack5",
+    "msgpack_stars": 499
   },
   {
     "msgpack_lang": "Erlang",
@@ -141,7 +156,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-erlang",
     "full_name": "msgpack/msgpack-erlang",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-erlang"
+    "html_url": "https://github.com/msgpack/msgpack-erlang",
+    "msgpack_stars": 213
   },
   {
     "msgpack_lang": "D",
@@ -150,7 +166,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-d",
     "full_name": "msgpack/msgpack-d",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-d"
+    "html_url": "https://github.com/msgpack/msgpack-d",
+    "msgpack_stars": 117
   },
   {
     "msgpack_lang": "C",
@@ -159,7 +176,8 @@
     "msgpack_repo_homepage": "https://github.com/ludocode/mpack",
     "full_name": "ludocode/mpack",
     "owner": "ludocode",
-    "html_url": "https://github.com/ludocode/mpack"
+    "html_url": "https://github.com/ludocode/mpack",
+    "msgpack_stars": 593
   },
   {
     "msgpack_lang": "Objective-C",
@@ -168,7 +186,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-objectivec",
     "full_name": "msgpack/msgpack-objectivec",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-objectivec"
+    "html_url": "https://github.com/msgpack/msgpack-objectivec",
+    "msgpack_stars": 302
   },
   {
     "msgpack_lang": "C",
@@ -177,7 +196,8 @@
     "msgpack_repo_homepage": "https://github.com/camgunz/cmp",
     "full_name": "camgunz/cmp",
     "owner": "camgunz",
-    "html_url": "https://github.com/camgunz/cmp"
+    "html_url": "https://github.com/camgunz/cmp",
+    "msgpack_stars": 358
   },
   {
     "msgpack_lang": "Objective-C",
@@ -186,7 +206,8 @@
     "msgpack_repo_homepage": "https://github.com/gabriel/MPMessagePack",
     "full_name": "gabriel/MPMessagePack",
     "owner": "gabriel",
-    "html_url": "https://github.com/gabriel/MPMessagePack"
+    "html_url": "https://github.com/gabriel/MPMessagePack",
+    "msgpack_stars": 179
   },
   {
     "msgpack_lang": "C++11",
@@ -195,7 +216,8 @@
     "msgpack_repo_homepage": "https://github.com/Lichtso/netLink",
     "full_name": "Lichtso/netLink",
     "owner": "Lichtso",
-    "html_url": "https://github.com/Lichtso/netLink"
+    "html_url": "https://github.com/Lichtso/netLink",
+    "msgpack_stars": 221
   },
   {
     "msgpack_lang": "C++17",
@@ -204,7 +226,8 @@
     "msgpack_repo_homepage": "https://github.com/mikeloomisgg/cppack",
     "full_name": "mikeloomisgg/cppack",
     "owner": "mikeloomisgg",
-    "html_url": "https://github.com/mikeloomisgg/cppack"
+    "html_url": "https://github.com/mikeloomisgg/cppack",
+    "msgpack_stars": 159
   },
   {
     "msgpack_lang": "Swift",
@@ -213,7 +236,8 @@
     "msgpack_repo_homepage": "https://github.com/a2/MessagePack.swift",
     "full_name": "a2/MessagePack.swift",
     "owner": "a2",
-    "html_url": "https://github.com/a2/MessagePack.swift"
+    "html_url": "https://github.com/a2/MessagePack.swift",
+    "msgpack_stars": 290
   },
   {
     "msgpack_lang": "Dart",
@@ -222,7 +246,8 @@
     "msgpack_repo_homepage": "https://github.com/knopp/msgpack_dart",
     "full_name": "knopp/msgpack_dart",
     "owner": "knopp",
-    "html_url": "https://github.com/knopp/msgpack_dart"
+    "html_url": "https://github.com/knopp/msgpack_dart",
+    "msgpack_stars": 61
   },
   {
     "msgpack_lang": "Elixir",
@@ -231,7 +256,8 @@
     "msgpack_repo_homepage": "https://hexdocs.pm/msgpax",
     "full_name": "lexmag/msgpax",
     "owner": "lexmag",
-    "html_url": "https://github.com/lexmag/msgpax"
+    "html_url": "https://github.com/lexmag/msgpax",
+    "msgpack_stars": 293
   },
   {
     "msgpack_lang": "Lua",
@@ -240,7 +266,8 @@
     "msgpack_repo_homepage": "http://fperrad.github.io/lua-MessagePack/",
     "full_name": "markstinson/lua-MessagePack",
     "owner": "markstinson",
-    "html_url": "https://github.com/markstinson/lua-MessagePack"
+    "html_url": "https://github.com/markstinson/lua-MessagePack",
+    "msgpack_stars": 38
   },
   {
     "msgpack_lang": "JavaScript/NodeJS",
@@ -249,7 +276,8 @@
     "msgpack_repo_homepage": "https://github.com/kriszyp/msgpackr",
     "full_name": "kriszyp/msgpackr",
     "owner": "kriszyp",
-    "html_url": "https://github.com/kriszyp/msgpackr"
+    "html_url": "https://github.com/kriszyp/msgpackr",
+    "msgpack_stars": 596
   },
   {
     "msgpack_lang": "Scala",
@@ -258,7 +286,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-scala",
     "full_name": "msgpack/msgpack-scala",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-scala"
+    "html_url": "https://github.com/msgpack/msgpack-scala",
+    "msgpack_stars": 93
   },
   {
     "msgpack_lang": "C++20",
@@ -267,7 +296,8 @@
     "msgpack_repo_homepage": "https://rfl.getml.com",
     "full_name": "getml/reflect-cpp",
     "owner": "getml",
-    "html_url": "https://github.com/getml/reflect-cpp"
+    "html_url": "https://github.com/getml/reflect-cpp",
+    "msgpack_stars": 1560
   },
   {
     "msgpack_lang": "Qt",
@@ -276,7 +306,8 @@
     "msgpack_repo_homepage": "https://github.com/romixlab/qmsgpack",
     "full_name": "romixlab/qmsgpack",
     "owner": "romixlab",
-    "html_url": "https://github.com/romixlab/qmsgpack"
+    "html_url": "https://github.com/romixlab/qmsgpack",
+    "msgpack_stars": 72
   },
   {
     "msgpack_lang": "JavaScript",
@@ -285,7 +316,8 @@
     "msgpack_repo_homepage": "https://github.com/ygoe/msgpack.js",
     "full_name": "ygoe/msgpack.js",
     "owner": "ygoe",
-    "html_url": "https://github.com/ygoe/msgpack.js"
+    "html_url": "https://github.com/ygoe/msgpack.js",
+    "msgpack_stars": 163
   },
   {
     "msgpack_lang": "Crystal",
@@ -294,7 +326,8 @@
     "msgpack_repo_homepage": "https://github.com/crystal-community/msgpack-crystal",
     "full_name": "crystal-community/msgpack-crystal",
     "owner": "crystal-community",
-    "html_url": "https://github.com/crystal-community/msgpack-crystal"
+    "html_url": "https://github.com/crystal-community/msgpack-crystal",
+    "msgpack_stars": 142
   },
   {
     "msgpack_lang": "Haxe",
@@ -303,7 +336,8 @@
     "msgpack_repo_homepage": "https://github.com/aaulia/msgpack-haxe",
     "full_name": "aaulia/msgpack-haxe",
     "owner": "aaulia",
-    "html_url": "https://github.com/aaulia/msgpack-haxe"
+    "html_url": "https://github.com/aaulia/msgpack-haxe",
+    "msgpack_stars": 64
   },
   {
     "msgpack_lang": "C++11",
@@ -312,7 +346,8 @@
     "msgpack_repo_homepage": "https://github.com/ar90n/msgpack11",
     "full_name": "ar90n/msgpack11",
     "owner": "ar90n",
-    "html_url": "https://github.com/ar90n/msgpack11"
+    "html_url": "https://github.com/ar90n/msgpack11",
+    "msgpack_stars": 124
   },
   {
     "msgpack_lang": "Nim",
@@ -321,7 +356,8 @@
     "msgpack_repo_homepage": "https://github.com/jangko/msgpack4nim",
     "full_name": "jangko/msgpack4nim",
     "owner": "jangko",
-    "html_url": "https://github.com/jangko/msgpack4nim"
+    "html_url": "https://github.com/jangko/msgpack4nim",
+    "msgpack_stars": 127
   },
   {
     "msgpack_lang": "Pascal",
@@ -330,7 +366,8 @@
     "msgpack_repo_homepage": "https://github.com/ymofen/msgpack-delphi",
     "full_name": "ymofen/msgpack-delphi",
     "owner": "ymofen",
-    "html_url": "https://github.com/ymofen/msgpack-delphi"
+    "html_url": "https://github.com/ymofen/msgpack-delphi",
+    "msgpack_stars": 53
   },
   {
     "msgpack_lang": "Python",
@@ -339,7 +376,8 @@
     "msgpack_repo_homepage": "https://github.com/aviramha/ormsgpack",
     "full_name": "aviramha/ormsgpack",
     "owner": "aviramha",
-    "html_url": "https://github.com/aviramha/ormsgpack"
+    "html_url": "https://github.com/aviramha/ormsgpack",
+    "msgpack_stars": 337
   },
   {
     "msgpack_lang": "Perl",
@@ -348,7 +386,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-perl",
     "full_name": "msgpack/msgpack-perl",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-perl"
+    "html_url": "https://github.com/msgpack/msgpack-perl",
+    "msgpack_stars": 51
   },
   {
     "msgpack_lang": "PHP",
@@ -357,7 +396,8 @@
     "msgpack_repo_homepage": "https://github.com/rybakit/msgpack.php",
     "full_name": "rybakit/msgpack.php",
     "owner": "rybakit",
-    "html_url": "https://github.com/rybakit/msgpack.php"
+    "html_url": "https://github.com/rybakit/msgpack.php",
+    "msgpack_stars": 401
   },
   {
     "msgpack_lang": "OCaml",
@@ -366,7 +406,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-ocaml",
     "full_name": "msgpack/msgpack-ocaml",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-ocaml"
+    "html_url": "https://github.com/msgpack/msgpack-ocaml",
+    "msgpack_stars": 45
   },
   {
     "msgpack_lang": "Elixir",
@@ -375,7 +416,8 @@
     "msgpack_repo_homepage": "https://github.com/mururu/msgpack-elixir",
     "full_name": "mururu/msgpack-elixir",
     "owner": "mururu",
-    "html_url": "https://github.com/mururu/msgpack-elixir"
+    "html_url": "https://github.com/mururu/msgpack-elixir",
+    "msgpack_stars": 71
   },
   {
     "msgpack_lang": "Go",
@@ -384,7 +426,8 @@
     "msgpack_repo_homepage": "https://github.com/shamaton/msgpack",
     "full_name": "shamaton/msgpack",
     "owner": "shamaton",
-    "html_url": "https://github.com/shamaton/msgpack"
+    "html_url": "https://github.com/shamaton/msgpack",
+    "msgpack_stars": 170
   },
   {
     "msgpack_lang": "HHVM",
@@ -393,7 +436,8 @@
     "msgpack_repo_homepage": "https://github.com/reeze/msgpack-hhvm",
     "full_name": "reeze/msgpack-hhvm",
     "owner": "reeze",
-    "html_url": "https://github.com/reeze/msgpack-hhvm"
+    "html_url": "https://github.com/reeze/msgpack-hhvm",
+    "msgpack_stars": 14
   },
   {
     "msgpack_lang": "Swift",
@@ -402,7 +446,8 @@
     "msgpack_repo_homepage": "https://github.com/briandw/SwiftPack",
     "full_name": "briandw/SwiftPack",
     "owner": "briandw",
-    "html_url": "https://github.com/briandw/SwiftPack"
+    "html_url": "https://github.com/briandw/SwiftPack",
+    "msgpack_stars": 102
   },
   {
     "msgpack_lang": "ActionScript3",
@@ -411,7 +456,8 @@
     "msgpack_repo_homepage": "https://github.com/loteixeira/as3-msgpack",
     "full_name": "loteixeira/as3-msgpack",
     "owner": "loteixeira",
-    "html_url": "https://github.com/loteixeira/as3-msgpack"
+    "html_url": "https://github.com/loteixeira/as3-msgpack",
+    "msgpack_stars": 62
   },
   {
     "msgpack_lang": "UNIX Shell",
@@ -420,7 +466,8 @@
     "msgpack_repo_homepage": "https://github.com/ludocode/msgpack-tools",
     "full_name": "ludocode/msgpack-tools",
     "owner": "ludocode",
-    "html_url": "https://github.com/ludocode/msgpack-tools"
+    "html_url": "https://github.com/ludocode/msgpack-tools",
+    "msgpack_stars": 270
   },
   {
     "msgpack_lang": "Clojure",
@@ -429,7 +476,8 @@
     "msgpack_repo_homepage": "https://github.com/edma2/clojure-msgpack",
     "full_name": "edma2/clojure-msgpack",
     "owner": "edma2",
-    "html_url": "https://github.com/edma2/clojure-msgpack"
+    "html_url": "https://github.com/edma2/clojure-msgpack",
+    "msgpack_stars": 67
   },
   {
     "msgpack_lang": "kotlinx.serialization",
@@ -438,7 +486,8 @@
     "msgpack_repo_homepage": "https://www.ensarsarajcic.com/kotlinx-serialization-msgpack/",
     "full_name": "esensar/kotlinx-serialization-msgpack",
     "owner": "esensar",
-    "html_url": "https://github.com/esensar/kotlinx-serialization-msgpack"
+    "html_url": "https://github.com/esensar/kotlinx-serialization-msgpack",
+    "msgpack_stars": 49
   },
   {
     "msgpack_lang": "Lua",
@@ -447,7 +496,8 @@
     "msgpack_repo_homepage": "https://github.com/kieselsteini/msgpack",
     "full_name": "kieselsteini/msgpack",
     "owner": "kieselsteini",
-    "html_url": "https://github.com/kieselsteini/msgpack"
+    "html_url": "https://github.com/kieselsteini/msgpack",
+    "msgpack_stars": 92
   },
   {
     "msgpack_lang": "Swift",
@@ -456,7 +506,8 @@
     "msgpack_repo_homepage": "https://github.com/hirotakan/MessagePacker",
     "full_name": "hirotakan/MessagePacker",
     "owner": "hirotakan",
-    "html_url": "https://github.com/hirotakan/MessagePacker"
+    "html_url": "https://github.com/hirotakan/MessagePacker",
+    "msgpack_stars": 88
   },
   {
     "msgpack_lang": "C / Objective-C / Swift",
@@ -465,7 +516,8 @@
     "msgpack_repo_homepage": "https://github.com/clwi/CWPack",
     "full_name": "clwi/CWPack",
     "owner": "clwi",
-    "html_url": "https://github.com/clwi/CWPack"
+    "html_url": "https://github.com/clwi/CWPack",
+    "msgpack_stars": 147
   },
   {
     "msgpack_lang": "Matlab",
@@ -474,7 +526,8 @@
     "msgpack_repo_homepage": "https://github.com/bastibe/matlab-msgpack",
     "full_name": "bastibe/matlab-msgpack",
     "owner": "bastibe",
-    "html_url": "https://github.com/bastibe/matlab-msgpack"
+    "html_url": "https://github.com/bastibe/matlab-msgpack",
+    "msgpack_stars": 16
   },
   {
     "msgpack_lang": "Rails",
@@ -483,7 +536,8 @@
     "msgpack_repo_homepage": "https://github.com/jingweno/msgpack_rails",
     "full_name": "owenthereal/msgpack_rails",
     "owner": "owenthereal",
-    "html_url": "https://github.com/owenthereal/msgpack_rails"
+    "html_url": "https://github.com/owenthereal/msgpack_rails",
+    "msgpack_stars": 44
   },
   {
     "msgpack_lang": "Julia",
@@ -492,7 +546,8 @@
     "msgpack_repo_homepage": "https://github.com/JuliaIO/MsgPack.jl",
     "full_name": "JuliaIO/MsgPack.jl",
     "owner": "JuliaIO",
-    "html_url": "https://github.com/JuliaIO/MsgPack.jl"
+    "html_url": "https://github.com/JuliaIO/MsgPack.jl",
+    "msgpack_stars": 68
   },
   {
     "msgpack_lang": "Python",
@@ -501,7 +556,8 @@
     "msgpack_repo_homepage": "https://github.com/vsergeev/u-msgpack-python",
     "full_name": "vsergeev/u-msgpack-python",
     "owner": "vsergeev",
-    "html_url": "https://github.com/vsergeev/u-msgpack-python"
+    "html_url": "https://github.com/vsergeev/u-msgpack-python",
+    "msgpack_stars": 260
   },
   {
     "msgpack_lang": "Kotlin",
@@ -510,7 +566,8 @@
     "msgpack_repo_homepage": "https://github.com/davethomas11/MoshiPack",
     "full_name": "davethomas11/MoshiPack",
     "owner": "davethomas11",
-    "html_url": "https://github.com/davethomas11/MoshiPack"
+    "html_url": "https://github.com/davethomas11/MoshiPack",
+    "msgpack_stars": 46
   },
   {
     "msgpack_lang": "mruby",
@@ -519,7 +576,8 @@
     "msgpack_repo_homepage": "MessagePack for mruby",
     "full_name": "suzukaze/mruby-msgpack",
     "owner": "suzukaze",
-    "html_url": "https://github.com/suzukaze/mruby-msgpack"
+    "html_url": "https://github.com/suzukaze/mruby-msgpack",
+    "msgpack_stars": 24
   },
   {
     "msgpack_lang": "PostgreSQL",
@@ -528,7 +586,8 @@
     "msgpack_repo_homepage": "https://github.com/patriksimek/msgpack-postgres",
     "full_name": "patriksimek/msgpack-postgres",
     "owner": "patriksimek",
-    "html_url": "https://github.com/patriksimek/msgpack-postgres"
+    "html_url": "https://github.com/patriksimek/msgpack-postgres",
+    "msgpack_stars": 53
   },
   {
     "msgpack_lang": "C#",
@@ -537,7 +596,8 @@
     "msgpack_repo_homepage": "https://github.com/ymofen/SimpleMsgPack.Net",
     "full_name": "ymofen/SimpleMsgPack.Net",
     "owner": "ymofen",
-    "html_url": "https://github.com/ymofen/SimpleMsgPack.Net"
+    "html_url": "https://github.com/ymofen/SimpleMsgPack.Net",
+    "msgpack_stars": 27
   },
   {
     "msgpack_lang": "C++11",
@@ -546,7 +606,8 @@
     "msgpack_repo_homepage": "https://github.com/jonathonl/goodform",
     "full_name": "jonathonl/goodform",
     "owner": "jonathonl",
-    "html_url": "https://github.com/jonathonl/goodform"
+    "html_url": "https://github.com/jonathonl/goodform",
+    "msgpack_stars": 29
   },
   {
     "msgpack_lang": "C#",
@@ -555,7 +616,8 @@
     "msgpack_repo_homepage": "https://github.com/caesay/MPack",
     "full_name": "caesay/MPack",
     "owner": "caesay",
-    "html_url": "https://github.com/caesay/MPack"
+    "html_url": "https://github.com/caesay/MPack",
+    "msgpack_stars": 22
   },
   {
     "msgpack_lang": "F#",
@@ -564,7 +626,8 @@
     "msgpack_repo_homepage": "https://github.com/pocketberserker/MessagePack.FSharpExtensions",
     "full_name": "pocketberserker/MessagePack.FSharpExtensions",
     "owner": "pocketberserker",
-    "html_url": "https://github.com/pocketberserker/MessagePack.FSharpExtensions"
+    "html_url": "https://github.com/pocketberserker/MessagePack.FSharpExtensions",
+    "msgpack_stars": 43
   },
   {
     "msgpack_lang": "VL",
@@ -573,7 +636,8 @@
     "msgpack_repo_homepage": "https://vvvv.org",
     "full_name": "vvvv/VL.StandardLibs",
     "owner": "vvvv",
-    "html_url": "https://github.com/vvvv/VL.StandardLibs"
+    "html_url": "https://github.com/vvvv/VL.StandardLibs",
+    "msgpack_stars": 55
   },
   {
     "msgpack_lang": "C#",
@@ -582,7 +646,8 @@
     "msgpack_repo_homepage": "http://www.infotopie.nl/open-source/msgpack-explorer",
     "full_name": "mlsomers/LsMsgPack",
     "owner": "mlsomers",
-    "html_url": "https://github.com/mlsomers/LsMsgPack"
+    "html_url": "https://github.com/mlsomers/LsMsgPack",
+    "msgpack_stars": 31
   },
   {
     "msgpack_lang": "zig",
@@ -591,7 +656,8 @@
     "msgpack_repo_homepage": "https://ziglang.cc/zig-msgpack/",
     "full_name": "zigcc/zig-msgpack",
     "owner": "zigcc",
-    "html_url": "https://github.com/zigcc/zig-msgpack"
+    "html_url": "https://github.com/zigcc/zig-msgpack",
+    "msgpack_stars": 42
   },
   {
     "msgpack_lang": "F#",
@@ -600,7 +666,8 @@
     "msgpack_repo_homepage": "https://github.com/Gab-km/msgpack-fsharp",
     "full_name": "Gab-km/msgpack-fsharp",
     "owner": "Gab-km",
-    "html_url": "https://github.com/Gab-km/msgpack-fsharp"
+    "html_url": "https://github.com/Gab-km/msgpack-fsharp",
+    "msgpack_stars": 17
   },
   {
     "msgpack_lang": "Smalltalk",
@@ -609,7 +676,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack/msgpack-smalltalk",
     "full_name": "msgpack/msgpack-smalltalk",
     "owner": "msgpack",
-    "html_url": "https://github.com/msgpack/msgpack-smalltalk"
+    "html_url": "https://github.com/msgpack/msgpack-smalltalk",
+    "msgpack_stars": 22
   },
   {
     "msgpack_lang": "C#",
@@ -618,7 +686,8 @@
     "msgpack_repo_homepage": "https://aarnott.github.io/Nerdbank.MessagePack/",
     "full_name": "AArnott/Nerdbank.MessagePack",
     "owner": "AArnott",
-    "html_url": "https://github.com/AArnott/Nerdbank.MessagePack"
+    "html_url": "https://github.com/AArnott/Nerdbank.MessagePack",
+    "msgpack_stars": 115
   },
   {
     "msgpack_lang": "GDScript",
@@ -627,7 +696,8 @@
     "msgpack_repo_homepage": "https://github.com/xtpor/godot-msgpack",
     "full_name": "xtpor/godot-msgpack",
     "owner": "xtpor",
-    "html_url": "https://github.com/xtpor/godot-msgpack"
+    "html_url": "https://github.com/xtpor/godot-msgpack",
+    "msgpack_stars": 42
   },
   {
     "msgpack_lang": "Rust",
@@ -636,7 +706,8 @@
     "msgpack_repo_homepage": "https://msgpack.org/",
     "full_name": "codx-dev/msgpacker",
     "owner": "codx-dev",
-    "html_url": "https://github.com/codx-dev/msgpacker"
+    "html_url": "https://github.com/codx-dev/msgpacker",
+    "msgpack_stars": 17
   },
   {
     "msgpack_lang": "Delphi",
@@ -645,7 +716,8 @@
     "msgpack_repo_homepage": "http://www.qdac.cc",
     "full_name": "chinawsb/qmsgpack-delphi",
     "owner": "chinawsb",
-    "html_url": "https://github.com/chinawsb/qmsgpack-delphi"
+    "html_url": "https://github.com/chinawsb/qmsgpack-delphi",
+    "msgpack_stars": 21
   },
   {
     "msgpack_lang": "Swift",
@@ -654,7 +726,8 @@
     "msgpack_repo_homepage": "https://github.com/michael-yuji/YSMessagePack",
     "full_name": "michael-yuji/YSMessagePack",
     "owner": "michael-yuji",
-    "html_url": "https://github.com/michael-yuji/YSMessagePack"
+    "html_url": "https://github.com/michael-yuji/YSMessagePack",
+    "msgpack_stars": 26
   },
   {
     "msgpack_lang": "Arduino",
@@ -663,7 +736,8 @@
     "msgpack_repo_homepage": "https://github.com/hideakitai/MsgPack",
     "full_name": "hideakitai/MsgPack",
     "owner": "hideakitai",
-    "html_url": "https://github.com/hideakitai/MsgPack"
+    "html_url": "https://github.com/hideakitai/MsgPack",
+    "msgpack_stars": 61
   },
   {
     "msgpack_lang": "c++23",
@@ -672,7 +746,8 @@
     "msgpack_repo_homepage": "https://github.com/rwindegger/msgpack23",
     "full_name": "rwindegger/msgpack23",
     "owner": "rwindegger",
-    "html_url": "https://github.com/rwindegger/msgpack23"
+    "html_url": "https://github.com/rwindegger/msgpack23",
+    "msgpack_stars": 82
   },
   {
     "msgpack_lang": "Jackson-dataformat",
@@ -681,7 +756,8 @@
     "msgpack_repo_homepage": "https://github.com/komamitsu/jackson-dataformat-msgpack",
     "full_name": "komamitsu/jackson-dataformat-msgpack",
     "owner": "komamitsu",
-    "html_url": "https://github.com/komamitsu/jackson-dataformat-msgpack"
+    "html_url": "https://github.com/komamitsu/jackson-dataformat-msgpack",
+    "msgpack_stars": 26
   },
   {
     "msgpack_lang": "Perl 6",
@@ -690,7 +766,8 @@
     "msgpack_repo_homepage": "https://github.com/pierre-vigier/Perl6-Data-MessagePack",
     "full_name": "pierre-vigier/Perl6-Data-MessagePack",
     "owner": "pierre-vigier",
-    "html_url": "https://github.com/pierre-vigier/Perl6-Data-MessagePack"
+    "html_url": "https://github.com/pierre-vigier/Perl6-Data-MessagePack",
+    "msgpack_stars": 5
   },
   {
     "msgpack_lang": "Nim",
@@ -699,7 +776,8 @@
     "msgpack_repo_homepage": "https://github.com/akiradeveloper/msgpack-nim",
     "full_name": "akiradeveloper/msgpack-nim",
     "owner": "akiradeveloper",
-    "html_url": "https://github.com/akiradeveloper/msgpack-nim"
+    "html_url": "https://github.com/akiradeveloper/msgpack-nim",
+    "msgpack_stars": 20
   },
   {
     "msgpack_lang": "Scala",
@@ -708,7 +786,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack4z/msgpack4z-core",
     "full_name": "msgpack4z/msgpack4z-core",
     "owner": "msgpack4z",
-    "html_url": "https://github.com/msgpack4z/msgpack4z-core"
+    "html_url": "https://github.com/msgpack4z/msgpack4z-core",
+    "msgpack_stars": 44
   },
   {
     "msgpack_lang": "Arduino C",
@@ -717,7 +796,8 @@
     "msgpack_repo_homepage": "https://github.com/HEADS-project/arduino_msgpack",
     "full_name": "HEADS-project/arduino_msgpack",
     "owner": "HEADS-project",
-    "html_url": "https://github.com/HEADS-project/arduino_msgpack"
+    "html_url": "https://github.com/HEADS-project/arduino_msgpack",
+    "msgpack_stars": 41
   },
   {
     "msgpack_lang": "Shell",
@@ -726,7 +806,8 @@
     "msgpack_repo_homepage": "https://github.com/jakm/msgpack-cli",
     "full_name": "jakm/msgpack-cli",
     "owner": "jakm",
-    "html_url": "https://github.com/jakm/msgpack-cli"
+    "html_url": "https://github.com/jakm/msgpack-cli",
+    "msgpack_stars": 50
   },
   {
     "msgpack_lang": "Javascript/NodeJS",
@@ -735,7 +816,8 @@
     "msgpack_repo_homepage": "http://npmjs.com/package/what-the-pack",
     "full_name": "davalapar/what-the-pack",
     "owner": "davalapar",
-    "html_url": "https://github.com/davalapar/what-the-pack"
+    "html_url": "https://github.com/davalapar/what-the-pack",
+    "msgpack_stars": 40
   },
   {
     "msgpack_lang": "Swift",
@@ -744,7 +826,8 @@
     "msgpack_repo_homepage": "https://swiftpackageindex.com/fumoboy007/msgpack-swift/documentation/messagepack",
     "full_name": "fumoboy007/msgpack-swift",
     "owner": "fumoboy007",
-    "html_url": "https://github.com/fumoboy007/msgpack-swift"
+    "html_url": "https://github.com/fumoboy007/msgpack-swift",
+    "msgpack_stars": 32
   },
   {
     "msgpack_lang": "Delphi",
@@ -753,7 +836,8 @@
     "msgpack_repo_homepage": "https://github.com/SeanSolberg/DynamicDataObjects",
     "full_name": "SeanSolberg/DynamicDataObjects",
     "owner": "SeanSolberg",
-    "html_url": "https://github.com/SeanSolberg/DynamicDataObjects"
+    "html_url": "https://github.com/SeanSolberg/DynamicDataObjects",
+    "msgpack_stars": 69
   },
   {
     "msgpack_lang": "Ruby/C++",
@@ -762,7 +846,8 @@
     "msgpack_repo_homepage": "https://github.com/mneumann/MessagePack",
     "full_name": "mneumann/MessagePack",
     "owner": "mneumann",
-    "html_url": "https://github.com/mneumann/MessagePack"
+    "html_url": "https://github.com/mneumann/MessagePack",
+    "msgpack_stars": 24
   },
   {
     "msgpack_lang": "ClojureScript",
@@ -771,7 +856,8 @@
     "msgpack_repo_homepage": "https://github.com/pkcsecurity/msgpack-cljs",
     "full_name": "pkcsecurity/msgpack-cljs",
     "owner": "pkcsecurity",
-    "html_url": "https://github.com/pkcsecurity/msgpack-cljs"
+    "html_url": "https://github.com/pkcsecurity/msgpack-cljs",
+    "msgpack_stars": 15
   },
   {
     "msgpack_lang": "R",
@@ -780,7 +866,8 @@
     "msgpack_repo_homepage": "https://github.com/eddelbuettel/rcppmsgpack",
     "full_name": "eddelbuettel/rcppmsgpack",
     "owner": "eddelbuettel",
-    "html_url": "https://github.com/eddelbuettel/rcppmsgpack"
+    "html_url": "https://github.com/eddelbuettel/rcppmsgpack",
+    "msgpack_stars": 21
   },
   {
     "msgpack_lang": "Haskell",
@@ -789,7 +876,8 @@
     "msgpack_repo_homepage": "http://hackage.haskell.org/package/messagepack",
     "full_name": "rodrigosetti/messagepack",
     "owner": "rodrigosetti",
-    "html_url": "https://github.com/rodrigosetti/messagepack"
+    "html_url": "https://github.com/rodrigosetti/messagepack",
+    "msgpack_stars": 7
   },
   {
     "msgpack_lang": "Dart",
@@ -798,7 +886,8 @@
     "msgpack_repo_homepage": "https://github.com/danellis/dart-msgpack",
     "full_name": "danellis/dart-msgpack",
     "owner": "danellis",
-    "html_url": "https://github.com/danellis/dart-msgpack"
+    "html_url": "https://github.com/danellis/dart-msgpack",
+    "msgpack_stars": 11
   },
   {
     "msgpack_lang": "Node",
@@ -807,7 +896,8 @@
     "msgpack_repo_homepage": "https://github.com/sschizas/msgpack-response",
     "full_name": "sschizas/msgpack-response",
     "owner": "sschizas",
-    "html_url": "https://github.com/sschizas/msgpack-response"
+    "html_url": "https://github.com/sschizas/msgpack-response",
+    "msgpack_stars": 17
   },
   {
     "msgpack_lang": "Python/Twisted",
@@ -816,7 +906,8 @@
     "msgpack_repo_homepage": "https://github.com/jakm/txmsgpackrpc",
     "full_name": "jakm/txmsgpackrpc",
     "owner": "jakm",
-    "html_url": "https://github.com/jakm/txmsgpackrpc"
+    "html_url": "https://github.com/jakm/txmsgpackrpc",
+    "msgpack_stars": 15
   },
   {
     "msgpack_lang": "Swift",
@@ -825,7 +916,8 @@
     "msgpack_repo_homepage": "https://github.com/swiftstack/messagepack",
     "full_name": "swiftstack/messagepack",
     "owner": "swiftstack",
-    "html_url": "https://github.com/swiftstack/messagepack"
+    "html_url": "https://github.com/swiftstack/messagepack",
+    "msgpack_stars": 15
   },
   {
     "msgpack_lang": "mruby",
@@ -834,7 +926,8 @@
     "msgpack_repo_homepage": "https://github.com/Asmod4n/mruby-simplemsgpack",
     "full_name": "Asmod4n/mruby-simplemsgpack",
     "owner": "Asmod4n",
-    "html_url": "https://github.com/Asmod4n/mruby-simplemsgpack"
+    "html_url": "https://github.com/Asmod4n/mruby-simplemsgpack",
+    "msgpack_stars": 5
   },
   {
     "msgpack_lang": "Pony",
@@ -843,7 +936,8 @@
     "msgpack_repo_homepage": "https://github.com/seantallen-org/msgpack",
     "full_name": "seantallen-org/msgpack",
     "owner": "seantallen-org",
-    "html_url": "https://github.com/seantallen-org/msgpack"
+    "html_url": "https://github.com/seantallen-org/msgpack",
+    "msgpack_stars": 33
   },
   {
     "msgpack_lang": "msgpack-inspect",
@@ -852,7 +946,8 @@
     "msgpack_repo_homepage": "https://github.com/tagomoris/msgpack-inspect",
     "full_name": "tagomoris/msgpack-inspect",
     "owner": "tagomoris",
-    "html_url": "https://github.com/tagomoris/msgpack-inspect"
+    "html_url": "https://github.com/tagomoris/msgpack-inspect",
+    "msgpack_stars": 22
   },
   {
     "msgpack_lang": "Scala.js",
@@ -861,7 +956,8 @@
     "msgpack_repo_homepage": "https://github.com/msgpack4z/msgpack4z-circe",
     "full_name": "msgpack4z/msgpack4z-circe",
     "owner": "msgpack4z",
-    "html_url": "https://github.com/msgpack4z/msgpack4z-circe"
+    "html_url": "https://github.com/msgpack4z/msgpack4z-circe",
+    "msgpack_stars": 8
   },
   {
     "msgpack_lang": "Python",
@@ -870,7 +966,8 @@
     "msgpack_repo_homepage": "https://github.com/lekma/mood.msgpack",
     "full_name": "lekma/mood.msgpack",
     "owner": "lekma",
-    "html_url": "https://github.com/lekma/mood.msgpack"
+    "html_url": "https://github.com/lekma/mood.msgpack",
+    "msgpack_stars": 6
   },
   {
     "msgpack_lang": "Objective-C",
@@ -879,7 +976,8 @@
     "msgpack_repo_homepage": "https://github.com/forzafootball/msgpack-objc",
     "full_name": "forzafootball/msgpack-objc",
     "owner": "forzafootball",
-    "html_url": "https://github.com/forzafootball/msgpack-objc"
+    "html_url": "https://github.com/forzafootball/msgpack-objc",
+    "msgpack_stars": 3
   },
   {
     "msgpack_lang": "Go",
@@ -888,7 +986,8 @@
     "msgpack_repo_homepage": "https://github.com/dchenk/msgp",
     "full_name": "dchenk/msgp",
     "owner": "dchenk",
-    "html_url": "https://github.com/dchenk/msgp"
+    "html_url": "https://github.com/dchenk/msgp",
+    "msgpack_stars": 13
   },
   {
     "msgpack_lang": "Retrofit converter (Java)",
@@ -897,7 +996,8 @@
     "msgpack_repo_homepage": "https://github.com/komamitsu/retrofit-converter-msgpack",
     "full_name": "komamitsu/retrofit-converter-msgpack",
     "owner": "komamitsu",
-    "html_url": "https://github.com/komamitsu/retrofit-converter-msgpack"
+    "html_url": "https://github.com/komamitsu/retrofit-converter-msgpack",
+    "msgpack_stars": 9
   },
   {
     "msgpack_lang": "SION,Swift",
@@ -906,7 +1006,8 @@
     "msgpack_repo_homepage": "https://github.com/dankogai/swift-sion",
     "full_name": "dankogai/swift-sion",
     "owner": "dankogai",
-    "html_url": "https://github.com/dankogai/swift-sion"
+    "html_url": "https://github.com/dankogai/swift-sion",
+    "msgpack_stars": 92
   },
   {
     "msgpack_lang": "scala-native",
@@ -915,7 +1016,8 @@
     "msgpack_repo_homepage": "https://msgpack4z.github.io/graph.svg",
     "full_name": "msgpack4z/msgpack4z-argonaut",
     "owner": "msgpack4z",
-    "html_url": "https://github.com/msgpack4z/msgpack4z-argonaut"
+    "html_url": "https://github.com/msgpack4z/msgpack4z-argonaut",
+    "msgpack_stars": 4
   },
   {
     "msgpack_lang": "LabVIEW",
@@ -924,7 +1026,8 @@
     "msgpack_repo_homepage": "https://github.com/mradziwo/MsgPack_LabVIEW",
     "full_name": "mradziwo/MsgPack_LabVIEW",
     "owner": "mradziwo",
-    "html_url": "https://github.com/mradziwo/MsgPack_LabVIEW"
+    "html_url": "https://github.com/mradziwo/MsgPack_LabVIEW",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "Go",
@@ -933,7 +1036,8 @@
     "msgpack_repo_homepage": "https://github.com/shamaton/msgpackgen",
     "full_name": "shamaton/msgpackgen",
     "owner": "shamaton",
-    "html_url": "https://github.com/shamaton/msgpackgen"
+    "html_url": "https://github.com/shamaton/msgpackgen",
+    "msgpack_stars": 42
   },
   {
     "msgpack_lang": "Tcl",
@@ -942,7 +1046,8 @@
     "msgpack_repo_homepage": "http://wiki.tcl.tk/37718",
     "full_name": "jdc8/msgpack",
     "owner": "jdc8",
-    "html_url": "https://github.com/jdc8/msgpack"
+    "html_url": "https://github.com/jdc8/msgpack",
+    "msgpack_stars": 9
   },
   {
     "msgpack_lang": "Zig",
@@ -951,7 +1056,8 @@
     "msgpack_repo_homepage": "https://github.com/theseyan/mpack-zig",
     "full_name": "theseyan/mpack-zig",
     "owner": "theseyan",
-    "html_url": "https://github.com/theseyan/mpack-zig"
+    "html_url": "https://github.com/theseyan/mpack-zig",
+    "msgpack_stars": 15
   },
   {
     "msgpack_lang": "Scheme",
@@ -960,7 +1066,8 @@
     "msgpack_repo_homepage": "https://github.com/ktakashi/r6rs-msgpack",
     "full_name": "ktakashi/r6rs-msgpack",
     "owner": "ktakashi",
-    "html_url": "https://github.com/ktakashi/r6rs-msgpack"
+    "html_url": "https://github.com/ktakashi/r6rs-msgpack",
+    "msgpack_stars": 12
   },
   {
     "msgpack_lang": "R",
@@ -969,7 +1076,8 @@
     "msgpack_repo_homepage": "https://github.com/crowding/msgpack-r",
     "full_name": "crowding/msgpack-r",
     "owner": "crowding",
-    "html_url": "https://github.com/crowding/msgpack-r"
+    "html_url": "https://github.com/crowding/msgpack-r",
+    "msgpack_stars": 14
   },
   {
     "msgpack_lang": "Python",
@@ -978,7 +1086,8 @@
     "msgpack_repo_homepage": "https://github.com/polyglotted/msgpack-python",
     "full_name": "polyglotted/msgpack-python",
     "owner": "polyglotted",
-    "html_url": "https://github.com/polyglotted/msgpack-python"
+    "html_url": "https://github.com/polyglotted/msgpack-python",
+    "msgpack_stars": 9
   },
   {
     "msgpack_lang": "JavaScript",
@@ -987,7 +1096,8 @@
     "msgpack_repo_homepage": "https://www.npmjs.com/package/express-msgpack",
     "full_name": "textbook/express-msgpack",
     "owner": "textbook",
-    "html_url": "https://github.com/textbook/express-msgpack"
+    "html_url": "https://github.com/textbook/express-msgpack",
+    "msgpack_stars": 8
   },
   {
     "msgpack_lang": "D",
@@ -996,7 +1106,8 @@
     "msgpack_repo_homepage": "https://github.com/jpf91/msgpack-ll",
     "full_name": "jpf91/msgpack-ll",
     "owner": "jpf91",
-    "html_url": "https://github.com/jpf91/msgpack-ll"
+    "html_url": "https://github.com/jpf91/msgpack-ll",
+    "msgpack_stars": 18
   },
   {
     "msgpack_lang": "Kotlin Serialization",
@@ -1005,7 +1116,8 @@
     "msgpack_repo_homepage": "https://github.com/kropp/kotlinx.serialization.msgpack",
     "full_name": "kropp/kotlinx.serialization.msgpack",
     "owner": "kropp",
-    "html_url": "https://github.com/kropp/kotlinx.serialization.msgpack"
+    "html_url": "https://github.com/kropp/kotlinx.serialization.msgpack",
+    "msgpack_stars": 7
   },
   {
     "msgpack_lang": "Clojure",
@@ -1014,7 +1126,8 @@
     "msgpack_repo_homepage": "https://github.com/rosejn/msgpack-cljc",
     "full_name": "rosejn/msgpack-cljc",
     "owner": "rosejn",
-    "html_url": "https://github.com/rosejn/msgpack-cljc"
+    "html_url": "https://github.com/rosejn/msgpack-cljc",
+    "msgpack_stars": 5
   },
   {
     "msgpack_lang": "SML",
@@ -1023,7 +1136,8 @@
     "msgpack_repo_homepage": "https://github.com/tkob/mlmsgpack",
     "full_name": "tkob/mlmsgpack",
     "owner": "tkob",
-    "html_url": "https://github.com/tkob/mlmsgpack"
+    "html_url": "https://github.com/tkob/mlmsgpack",
+    "msgpack_stars": 7
   },
   {
     "msgpack_lang": "Elixir",
@@ -1032,7 +1146,8 @@
     "msgpack_repo_homepage": "https://github.com/ymofen/thealchemist",
     "full_name": "ymofen/thealchemist",
     "owner": "ymofen",
-    "html_url": "https://github.com/ymofen/thealchemist"
+    "html_url": "https://github.com/ymofen/thealchemist",
+    "msgpack_stars": 3
   },
   {
     "msgpack_lang": "Monkey C",
@@ -1041,7 +1156,8 @@
     "msgpack_repo_homepage": "https://github.com/douglasr/msgpack-monkeyc",
     "full_name": "douglasr/msgpack-monkeyc",
     "owner": "douglasr",
-    "html_url": "https://github.com/douglasr/msgpack-monkeyc"
+    "html_url": "https://github.com/douglasr/msgpack-monkeyc",
+    "msgpack_stars": 5
   },
   {
     "msgpack_lang": "Zig",
@@ -1050,7 +1166,8 @@
     "msgpack_repo_homepage": "https://github.com/lalinsky/msgpack.zig",
     "full_name": "lalinsky/msgpack.zig",
     "owner": "lalinsky",
-    "html_url": "https://github.com/lalinsky/msgpack.zig"
+    "html_url": "https://github.com/lalinsky/msgpack.zig",
+    "msgpack_stars": 3
   },
   {
     "msgpack_lang": "Dart",
@@ -1059,7 +1176,8 @@
     "msgpack_repo_homepage": "https://msgpack.org/",
     "full_name": "dxflutter/dxvalue",
     "owner": "dxflutter",
-    "html_url": "https://github.com/dxflutter/dxvalue"
+    "html_url": "https://github.com/dxflutter/dxvalue",
+    "msgpack_stars": 5
   },
   {
     "msgpack_lang": "ActionScript3",
@@ -1068,7 +1186,8 @@
     "msgpack_repo_homepage": "https://github.com/st3v0/msgpack-as3",
     "full_name": "st3v0/msgpack-as3",
     "owner": "st3v0",
-    "html_url": "https://github.com/st3v0/msgpack-as3"
+    "html_url": "https://github.com/st3v0/msgpack-as3",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "gopher-lua",
@@ -1077,7 +1196,8 @@
     "msgpack_repo_homepage": "https://github.com/PeerDB-io/gluamsgpack",
     "full_name": "PeerDB-io/gluamsgpack",
     "owner": "PeerDB-io",
-    "html_url": "https://github.com/PeerDB-io/gluamsgpack"
+    "html_url": "https://github.com/PeerDB-io/gluamsgpack",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "JavaScript/NodeJS",
@@ -1086,7 +1206,8 @@
     "msgpack_repo_homepage": "https://www.npmjs.com/package/msgpack-nodejs",
     "full_name": "artyomliou/msgpack-nodejs",
     "owner": "artyomliou",
-    "html_url": "https://github.com/artyomliou/msgpack-nodejs"
+    "html_url": "https://github.com/artyomliou/msgpack-nodejs",
+    "msgpack_stars": 5
   },
   {
     "msgpack_lang": "Zig",
@@ -1095,7 +1216,8 @@
     "msgpack_repo_homepage": "https://github.com/rockorager/msgpack-zig",
     "full_name": "rockorager/msgpack-zig",
     "owner": "rockorager",
-    "html_url": "https://github.com/rockorager/msgpack-zig"
+    "html_url": "https://github.com/rockorager/msgpack-zig",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "Swift, java compatibel",
@@ -1104,7 +1226,8 @@
     "msgpack_repo_homepage": "https://github.com/cherrywoods/swift-msgpack-serialization",
     "full_name": "cherrywoods/swift-msgpack-serialization",
     "owner": "cherrywoods",
-    "html_url": "https://github.com/cherrywoods/swift-msgpack-serialization"
+    "html_url": "https://github.com/cherrywoods/swift-msgpack-serialization",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "Go",
@@ -1113,7 +1236,8 @@
     "msgpack_repo_homepage": "https://github.com/nnabeyang/go-msgpack",
     "full_name": "nnabeyang/go-msgpack",
     "owner": "nnabeyang",
-    "html_url": "https://github.com/nnabeyang/go-msgpack"
+    "html_url": "https://github.com/nnabeyang/go-msgpack",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "Racket",
@@ -1122,7 +1246,8 @@
     "msgpack_repo_homepage": "https://gitlab.com/HiPhish/MsgPack.rkt",
     "full_name": "HiPhish/msgpack-racket",
     "owner": "HiPhish",
-    "html_url": "https://github.com/HiPhish/msgpack-racket"
+    "html_url": "https://github.com/HiPhish/msgpack-racket",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "GNU Guile",
@@ -1131,7 +1256,8 @@
     "msgpack_repo_homepage": "https://gitlab.com/HiPhish/guile-msgpack",
     "full_name": "HiPhish/guile-msgpack",
     "owner": "HiPhish",
-    "html_url": "https://github.com/HiPhish/guile-msgpack"
+    "html_url": "https://github.com/HiPhish/guile-msgpack",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "Python",
@@ -1140,7 +1266,8 @@
     "msgpack_repo_homepage": "https://tlcfem.github.io/msglc/",
     "full_name": "TLCFEM/msglc",
     "owner": "TLCFEM",
-    "html_url": "https://github.com/TLCFEM/msglc"
+    "html_url": "https://github.com/TLCFEM/msglc",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "J",
@@ -1149,7 +1276,8 @@
     "msgpack_repo_homepage": "https://github.com/jonghough/msgpack-j",
     "full_name": "jonghough/msgpack-j",
     "owner": "jonghough",
-    "html_url": "https://github.com/jonghough/msgpack-j"
+    "html_url": "https://github.com/jonghough/msgpack-j",
+    "msgpack_stars": 2
   },
   {
     "msgpack_lang": "expert-carnival",
@@ -1158,7 +1286,8 @@
     "msgpack_repo_homepage": "https://github.com/tihannalouise/https-github.com-msgpack-msgpack-java",
     "full_name": "tihannalouise/https-github.com-msgpack-msgpack-java",
     "owner": "tihannalouise",
-    "html_url": "https://github.com/tihannalouise/https-github.com-msgpack-msgpack-java"
+    "html_url": "https://github.com/tihannalouise/https-github.com-msgpack-msgpack-java",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "Go",
@@ -1167,7 +1296,8 @@
     "msgpack_repo_homepage": "https://godoc.org/github.com/ybkimm/msgpack",
     "full_name": "ybkimm/msgpack",
     "owner": "ybkimm",
-    "html_url": "https://github.com/ybkimm/msgpack"
+    "html_url": "https://github.com/ybkimm/msgpack",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "C#",
@@ -1176,7 +1306,8 @@
     "msgpack_repo_homepage": "https://github.com/pjohalloran/com.neuecc.messagepack",
     "full_name": "pjohalloran/com.neuecc.messagepack",
     "owner": "pjohalloran",
-    "html_url": "https://github.com/pjohalloran/com.neuecc.messagepack"
+    "html_url": "https://github.com/pjohalloran/com.neuecc.messagepack",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "Swift",
@@ -1185,7 +1316,8 @@
     "msgpack_repo_homepage": "https://github.com/couchdeveloper/messagepack",
     "full_name": "couchdeveloper/messagepack",
     "owner": "couchdeveloper",
-    "html_url": "https://github.com/couchdeveloper/messagepack"
+    "html_url": "https://github.com/couchdeveloper/messagepack",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "C++",
@@ -1194,7 +1326,8 @@
     "msgpack_repo_homepage": "https://github.com/diy4hobby/DAL",
     "full_name": "diy4hobby/DAL",
     "owner": "diy4hobby",
-    "html_url": "https://github.com/diy4hobby/DAL"
+    "html_url": "https://github.com/diy4hobby/DAL",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "PHP",
@@ -1203,7 +1336,8 @@
     "msgpack_repo_homepage": "https://github.com/CodeSmith32/msgpack-php-micro",
     "full_name": "CodeSmith32/msgpack-php-micro",
     "owner": "CodeSmith32",
-    "html_url": "https://github.com/CodeSmith32/msgpack-php-micro"
+    "html_url": "https://github.com/CodeSmith32/msgpack-php-micro",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "C#",
@@ -1212,7 +1346,8 @@
     "msgpack_repo_homepage": "https://github.com/highras/msgpack-csharp",
     "full_name": "highras/msgpack-csharp",
     "owner": "highras",
-    "html_url": "https://github.com/highras/msgpack-csharp"
+    "html_url": "https://github.com/highras/msgpack-csharp",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "Gleam",
@@ -1221,7 +1356,8 @@
     "msgpack_repo_homepage": "https://github.com/Lemorz56/glepack",
     "full_name": "Lemorz56/glepack",
     "owner": "Lemorz56",
-    "html_url": "https://github.com/Lemorz56/glepack"
+    "html_url": "https://github.com/Lemorz56/glepack",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "Ballerina",
@@ -1230,7 +1366,8 @@
     "msgpack_repo_homepage": "https://github.com/DrewMcArthur/msgpack-bal",
     "full_name": "DrewMcArthur/msgpack-bal",
     "owner": "DrewMcArthur",
-    "html_url": "https://github.com/DrewMcArthur/msgpack-bal"
+    "html_url": "https://github.com/DrewMcArthur/msgpack-bal",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "Prolog",
@@ -1239,7 +1376,8 @@
     "msgpack_repo_homepage": "https://msgpack.org/",
     "full_name": "royratcliffe/msgpackc-prolog",
     "owner": "royratcliffe",
-    "html_url": "https://github.com/royratcliffe/msgpackc-prolog"
+    "html_url": "https://github.com/royratcliffe/msgpackc-prolog",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "Clue",
@@ -1248,7 +1386,8 @@
     "msgpack_repo_homepage": "https://github.com/Rosy-iso/msgpack-clue",
     "full_name": "Rosy-iso/msgpack-clue",
     "owner": "Rosy-iso",
-    "html_url": "https://github.com/Rosy-iso/msgpack-clue"
+    "html_url": "https://github.com/Rosy-iso/msgpack-clue",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "JavaScript",
@@ -1257,7 +1396,8 @@
     "msgpack_repo_homepage": "https://github.com/CodeSmith32/msgpack-js-micro",
     "full_name": "CodeSmith32/msgpack-js-micro",
     "owner": "CodeSmith32",
-    "html_url": "https://github.com/CodeSmith32/msgpack-js-micro"
+    "html_url": "https://github.com/CodeSmith32/msgpack-js-micro",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "Ruby",
@@ -1266,7 +1406,8 @@
     "msgpack_repo_homepage": "https://github.com/BertramScharpf/ruby-mplight",
     "full_name": "BertramScharpf/ruby-mplight",
     "owner": "BertramScharpf",
-    "html_url": "https://github.com/BertramScharpf/ruby-mplight"
+    "html_url": "https://github.com/BertramScharpf/ruby-mplight",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "C++11",
@@ -1275,7 +1416,8 @@
     "msgpack_repo_homepage": "https://github.com/ToruNiina/wad",
     "full_name": "ToruNiina/wad",
     "owner": "ToruNiina",
-    "html_url": "https://github.com/ToruNiina/wad"
+    "html_url": "https://github.com/ToruNiina/wad",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "C++17",
@@ -1284,7 +1426,8 @@
     "msgpack_repo_homepage": "https://github.com/pfeatherstone/msgpack_cpp",
     "full_name": "pfeatherstone/msgpack_cpp",
     "owner": "pfeatherstone",
-    "html_url": "https://github.com/pfeatherstone/msgpack_cpp"
+    "html_url": "https://github.com/pfeatherstone/msgpack_cpp",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "MoonBit",
@@ -1293,7 +1436,8 @@
     "msgpack_repo_homepage": "https://www.moonbitlang.cn/",
     "full_name": "suiyunonghen/moonvalue",
     "owner": "suiyunonghen",
-    "html_url": "https://github.com/suiyunonghen/moonvalue"
+    "html_url": "https://github.com/suiyunonghen/moonvalue",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "Go",
@@ -1302,7 +1446,8 @@
     "msgpack_repo_homepage": "https://github.com/viettrungluu/umsgpack",
     "full_name": "viettrungluu/umsgpack",
     "owner": "viettrungluu",
-    "html_url": "https://github.com/viettrungluu/umsgpack"
+    "html_url": "https://github.com/viettrungluu/umsgpack",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "R",
@@ -1311,7 +1456,8 @@
     "msgpack_repo_homepage": "https://github.com/skyformat99/msgpack2R",
     "full_name": "skyformat99/msgpack2R",
     "owner": "skyformat99",
-    "html_url": "https://github.com/skyformat99/msgpack2R"
+    "html_url": "https://github.com/skyformat99/msgpack2R",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "Arduino/C++",
@@ -1320,7 +1466,8 @@
     "msgpack_repo_homepage": "https://github.com/bblanchon/ArduinoJson-msgpack.org",
     "full_name": "bblanchon/ArduinoJson-msgpack.org",
     "owner": "bblanchon",
-    "html_url": "https://github.com/bblanchon/ArduinoJson-msgpack.org"
+    "html_url": "https://github.com/bblanchon/ArduinoJson-msgpack.org",
+    "msgpack_stars": 1
   },
   {
     "msgpack_lang": "PackLens",
@@ -1329,7 +1476,8 @@
     "msgpack_repo_homepage": "https://packlens.pejmannik.dev/",
     "full_name": "PejmanNik/packlens",
     "owner": "PejmanNik",
-    "html_url": "https://github.com/PejmanNik/packlens"
+    "html_url": "https://github.com/PejmanNik/packlens",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "C++23",
@@ -1338,7 +1486,8 @@
     "msgpack_repo_homepage": "https://github.com/ar90n/msgpack23",
     "full_name": "ar90n/msgpack23",
     "owner": "ar90n",
-    "html_url": "https://github.com/ar90n/msgpack23"
+    "html_url": "https://github.com/ar90n/msgpack23",
+    "msgpack_stars": 0
   },
   {
     "msgpack_lang": "Kotlin Multiplatform",
@@ -1347,6 +1496,7 @@
     "msgpack_repo_homepage": "https://github.com/dedee/kompack",
     "full_name": "dedee/kompack",
     "owner": "dedee",
-    "html_url": "https://github.com/dedee/kompack"
+    "html_url": "https://github.com/dedee/kompack",
+    "msgpack_stars": 1
   }
 ]

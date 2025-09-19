@@ -117,7 +117,8 @@ async function generate() {
           msgpack_repo_homepage: homepage,
           full_name: repo.full_name,
           owner: owner,
-          html_url: repo.html_url
+          html_url: repo.html_url,
+          msgpack_stars: repo.stargazers_count
         });
 
         console.log(`Collected ${repo.full_name} for lang=${lang}`);
@@ -144,6 +145,7 @@ async function generate() {
     full_name: string;
     owner: string;
     html_url: string;
+    msgpack_stars: number;
   };
 
   // group by language and sort
@@ -156,6 +158,17 @@ async function generate() {
   for (const lang of Object.keys(grouped)) {
     grouped[lang].sort((a, b) => a.full_name.localeCompare(b.full_name));
   }
+
+  // sort by language, then by stars descending
+  collected.sort((a, b) => {
+    if (a.msgpack_lang !== b.msgpack_lang) {
+      let result = a.msgpack_lang.localeCompare(b.msgpack_lang, undefined, { sensitivity: 'base' });
+      if (result !== 0) {
+        return result;
+      }
+    }
+    return b.msgpack_stars - a.msgpack_stars;
+  });
 
   // setup nunjucks
   const templatesDir = path.resolve(process.cwd(), 'templates');

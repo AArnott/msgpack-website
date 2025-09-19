@@ -20,7 +20,7 @@ with a specific tag and put their summary to the website.
     4. README.rdoc
     5. README.rst
     6. README
-3. Wait a moment. [The crawler](https://github.com/AArnott/msgpack-website/blob/main/update-index.rb) visits your github repository every hour.
+3. Wait a moment. [The crawler](https://github.com/AArnott/msgpack-website/blob/main/update-index.rb) visits your github repository daily.
 
 The crawler copies content of a file to msgpack.io website. Former file name has priority (```msgpack.org.md``` > ```README.md``` > ...).
 

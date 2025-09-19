@@ -10,7 +10,7 @@ function loadQuickstartContent(repoId, callback) {
 
     // Fetch content from static JSON file
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/api/quickstart/' + repoId + '.json', true);
+    xhr.open('GET', 'api/quickstart/' + repoId + '.json', true);
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {

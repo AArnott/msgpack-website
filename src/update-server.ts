@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 });
 
 // Note: API endpoint removed - quickstart content is now served as static JSON files
-// during development and production. The /api/quickstart/*.json files are generated
+// during development and production. The api/quickstart/*.json files are generated
 // during the build process and served as static files.
 
 app.get('/update', async (req, res) => {

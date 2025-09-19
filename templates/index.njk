@@ -198,7 +198,17 @@
                 <a href="{{ repo.html_url }}" target="_blank">{{ repo.full_name }}</a>
               {% endif %}
             </h4>
-            {{ repo.msgpack_quickstart_html | safe }}
+            <div class="quickstart-content" data-repo-id="{{ repo.msgpack_repo_id }}">
+              <div class="quickstart-loading" style="display: none;">
+                <p>Loading quickstart guide...</p>
+              </div>
+              <div class="quickstart-placeholder" onclick="loadQuickstartForRepo('{{ repo.msgpack_repo_id }}', this)">
+                <p><em>Click to load quickstart guide for {{ repo.msgpack_lang }}...</em></p>
+              </div>
+              <noscript>
+                <p><em>JavaScript required to load quickstart guide on-demand. <a href="{{ repo.html_url }}" target="_blank">View on GitHub</a></em></p>
+              </noscript>
+            </div>
           </div>
         {% endfor %}
       </div>

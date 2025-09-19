@@ -220,23 +220,52 @@ async function generate() {
     }
   }
 
+  // Generate static JSON files for each repository's quickstart content
+  const apiDir = path.join(dist, 'api', 'quickstart');
+  await fs.mkdirp(apiDir);
+
+  for (const repo of collected) {
+    const jsonContent = {
+      quickstart_html: repo.msgpack_quickstart_html || '',
+      full_name: repo.full_name,
+      homepage: repo.msgpack_repo_homepage,
+      html_url: repo.html_url
+    };
+
+    const jsonFile = path.join(apiDir, `${repo.msgpack_repo_id}.json`);
+    await fs.writeFile(jsonFile, JSON.stringify(jsonContent, null, 2), 'utf8');
+  }
+
+  console.log(`Generated ${collected.length} static JSON files in api/quickstart/`);
+
   // render pages per language
   for (const lang of languages) {
     const langKey = lang;
     const fileName = (langKey === 'en') ? 'index.html' : `${langKey}.html`;
-    // The original ERB rendered the same `repos` collection for each locale
-    // (the template handles language selection), so pass the full collected
-    // list here and also expose `langs` for alternate links.
+
+    // Create a stripped version of repos data without heavy HTML content for the template
+    const strippedRepos = collected.map(repo => ({
+      msgpack_lang: repo.msgpack_lang,
+      msgpack_repo_id: repo.msgpack_repo_id,
+      msgpack_repo_homepage: repo.msgpack_repo_homepage,
+      full_name: repo.full_name,
+      owner: repo.owner,
+      html_url: repo.html_url,
+      msgpack_stars: repo.msgpack_stars,
+      msgpack_boost: repo.msgpack_boost
+      // Note: msgpack_quickstart_html is excluded to reduce initial page size
+    }));
+
     const strings = (langMap[langKey] || {});
     const html = nunjucks.render('index.njk', {
       lang: langKey,
-      repos: collected,
+      repos: strippedRepos,
       langs: languages,
       strings: strings
     });
 
     await fs.writeFile(path.join(dist, fileName), html, 'utf8');
-    console.log(`Wrote ${fileName} with ${collected.length} repos`);
+    console.log(`Wrote ${fileName} with ${collected.length} repos (quickstart content will be loaded on-demand)`);
   }
 
   console.log('Generation complete.');

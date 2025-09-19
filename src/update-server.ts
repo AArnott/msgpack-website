@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(distDir, 'index.html'));
 });
 
+// Note: API endpoint removed - quickstart content is now served as static JSON files
+// during development and production. The /api/quickstart/*.json files are generated
+// during the build process and served as static files.
+
 app.get('/update', async (req, res) => {
   res.setHeader('Content-Type', 'text/plain; charset=utf-8');
 

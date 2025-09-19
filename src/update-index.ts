@@ -147,6 +147,9 @@ async function generate() {
       }
     }
 
+    // sort by msgpack_repo_id for stable cache ordering
+    collected.sort((a, b) => a.msgpack_repo_id.localeCompare(b.msgpack_repo_id));
+
     // write cache for faster future runs
     try {
       await fs.mkdirp(path.dirname(cachePath));

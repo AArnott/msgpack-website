@@ -69,10 +69,11 @@ async function searchRepos(octokit: Octokit) {
 async function generate() {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
-  // load lang.yml
+  // load lang.yml and keep the full language dictionary
   const langFile = path.resolve(process.cwd(), 'lang.yml');
   const langContents = await fs.readFile(langFile, 'utf8');
-  const languages = Object.keys(YAML.load(langContents) as any || {});
+  const langMap = YAML.load(langContents) as any || {};
+  const languages = Object.keys(langMap);
 
   console.log(`Found languages: ${languages.join(', ')}`);
 
@@ -115,6 +116,7 @@ async function generate() {
           msgpack_repo_id: repo.full_name.replace(/[^a-zA-Z0-9_\-]+/, '-'),
           msgpack_repo_homepage: homepage,
           full_name: repo.full_name,
+          owner: owner,
           html_url: repo.html_url
         });
 
@@ -140,6 +142,7 @@ async function generate() {
     msgpack_repo_id: string;
     msgpack_repo_homepage: string | null;
     full_name: string;
+    owner: string;
     html_url: string;
   };
 
@@ -179,10 +182,12 @@ async function generate() {
     // The original ERB rendered the same `repos` collection for each locale
     // (the template handles language selection), so pass the full collected
     // list here and also expose `langs` for alternate links.
+    const strings = (langMap[langKey] || {});
     const html = nunjucks.render('index.njk', {
       lang: langKey,
       repos: collected,
-      langs: languages
+      langs: languages,
+      strings: strings
     });
 
     await fs.writeFile(path.join(dist, fileName), html, 'utf8');

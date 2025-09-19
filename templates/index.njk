@@ -1,50 +1,188 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="MessagePack,msgpack,JSON,alternative,better json,faster json,serializer">
-    <link href='favicon.ico' rel='icon' type='image/x-icon'>
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="MessagePack,msgpack,JSON,alternative,better json,faster json,serializer">
+  <link href='favicon.ico' rel='icon' type='image/x-icon'>
 
-    <link rel="alternate" hreflang="en" href="index.html">
-    <link rel="alternate" hreflang="ja" href="ja.html">
+  <link rel="alternate" hreflang="en" href="index.html">
+  {% for alt in langs %}
+    {% if alt != 'en' %}
+      <link rel="alternate" hreflang="{{ alt }}" href="{{ alt }}.html">
+    {% endif %}
+  {% endfor %}
 
-    <title>MessagePack Projects - {{ lang }}</title>
+  <title>{{ strings.title | default("MessagePack") }}</title>
 
-    <link media="all" rel="stylesheet" href="css/yuibase.css">
-    <link media="all" rel="stylesheet" href="js/prettify/prettify.css">
-    <link media="all" rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,200">
-    <script src="js/all.js"></script>
-    <script src="js/prettify/prettify.js"></script>
-    <script src="js/prettify/run_prettify.js"></script>
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/jquery.leanModal.min.js" ></script>
-    <script src="js/msgpack.js" ></script>
-  </head>
-  <body>
-    <header>
-      <h1>MessagePack Projects ({{ lang }})</h1>
-    </header>
-    <main>
-      {% if repos.length == 0 %}
-        <p>No projects found for {{ lang }}.</p>
-      {% else %}
+  <link media="all" rel="stylesheet" href="css/yuibase.css">
+  <link media="all" rel="stylesheet" href="js/prettify/prettify.css">
+  <link media="all" rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,200">
+
+  <script src="js/all.js"></script>
+  <script src="js/prettify/prettify.js"></script>
+  <script src="js/prettify/run_prettify.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.leanModal.min.js"></script>
+  <script src="js/msgpack.js"></script>
+
+  <style>
+    {{ strings.css | default('') | safe }}
+  </style>
+
+  <script type="text/javascript">
+  $(function(){
+    if (document.getElementsByClassName('qs').length) {
+      var index = Math.floor(Math.random()*(document.getElementsByClassName('qs').length-1));
+      changeQuickStart(document.getElementsByClassName('qs')[index].id, document.getElementsByClassName('qs-a')[index]);
+    }
+  });
+
+  $(function() {
+    $('pre > code').addClass('prettyprint');
+    prettyPrint();
+  });
+
+  $(function() {
+    $('a[rel*=leanModal]').leanModal({
+      top: 100,
+      overlay : 0.5,
+      closeButton: ".modal_close"
+    });
+    $(document).keydown(function(e) {
+      if (e.keyCode == 27) {
+        $('#lean_overlay').fadeOut(200);
+        $('#json-to-msgpack').css({'display':'none'});
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <header>
+    <div>
+      <h1><a href="/">MessagePack</a></h1>
+      <nav id="topnav">
+        <ul>
+          <li><a rel="leanModal" href="#json-to-msgpack" class="i18n_nav">{{ strings.nav_try | default('Try!') }}</a></li>
+          <li><a href="https://github.com/msgpack/msgpack/blob/master/spec.md" class="i18n_nav">{{ strings.nav_spec | default('Spec') }}</a></li>
+          <li><a href="https://twitter.com/search/MessagePack%20OR%20msgpack" class="i18n_nav">{{ strings.nav_tag | default('#msgpack') }}</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <div id="description">
+        <h2 class="i18n">{{ strings.h2_html | safe }}</h2>
+        <p class="i18n">{{ strings.desc_html }}</p>
+      </div>
+
+      <div id="next">
+        <h3 class="i18n_head i18n_next">{{ strings.next_head | default('Next:') }}</h3>
+        <p class="i18n">{{ strings.next_body_html | default('') | safe }}</p>
+      </div>
+    </section>
+
+    {% if lang == 'en' %}
+    <section id="usecases">
+      <div id="testimonials">
+        <!-- kept same testimonial markup as before -->
+        <div class="tmset">
+          <div class="tm">
+            <a class="tmlogo" href="https://redis.io/"><img src="images/redis.png" alt="Redis" width="150" height="50" /></a>
+            <p class="tmtext">Redis scripting has support for MessagePack because it is a fast and compact serialization format with a simple to implement specification. I liked it so much that I implemented a MessagePack C extension for Lua just to include it into Redis.</p>
+            <p class="tmauthor">Salvatore Sanfilippo, creator of Redis</p>
+          </div>
+          <div class="tm">
+            <a class="tmlogo" href="https://fluentd.org/" style="height:100px;margin-top:-35px;"><img src="images/fluentd.png" alt="Fluentd" width="245" height="85" /></a>
+            <p class="tmtext">Fluentd uses MessagePack for all internal data representation. It's crazy fast because of zero-copy optimization of msgpack-ruby. Now MessagePack is an essential component of Fluentd to achieve high performance and flexibility at the same time.</p>
+            <p class="tmauthor">Sadayuki Furuhashi, creator of Fluentd</p>
+          </div>
+        </div>
+
+        <div class="tmset">
+          <div class="tm">
+            <a class="tmlogo" href="https://www.treasuredata.com/"><img src="images/treasuredata.png" alt="Treasure Data" width="242" height="52" /></a>
+            <p class="tmtext">Treasure Data built a multi-tenant database optimized for analytical queries using MessagePack. The schemaless database is growing by billions of records every month. We also use MessagePack as a glue between components. Actually we just wanted a fast replacement of JSON, and MessagePack is simply useful.</p>
+            <p class="tmauthor">Kazuki Ohta, CTO</p>
+          </div>
+
+          <div class="tm">
+            <a class="tmlogo" href="https://www.pinterest.com/pinterest/"><img src="images/pinterest.png" alt="Pinterest" width="197" height="50" /></a>
+            <p class="tmtext">MessagePack has been simply invaluable to us. We use MessagePack + Memcache to cache many of our feeds on Pinterest. These feeds are compressed and very quick to unpack thanks to MessagePack while Memcache gives us fast atomic pushes.</p>
+            <p class="tmauthor">Marty Weiner, Software Engineer</p>
+            <p class="tmcontribute">Also use MessagePack? <a href="https://github.com/msgpack/website">Waiting for your testimonial!</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="twitter">
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=msgpack+OR+MessagePack+lang%3Aen" data-widget-id="343624208380735490" width="350" height="500">Tweets about "msgpack OR MessagePack"</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </section>
+    {% endif %}
+
+    <section id="usage">
+      <div id="languages">
+        <h3 class="i18n_head">{{ strings.languages | default('Languages') }}</h3>
+
+        <ul class="qslist">
+          {% for repo in repos %}
+            <li><a class="qs-a" onclick="changeQuickStart('qs-{{ repo.msgpack_repo_id }}',this)">{{ repo.msgpack_lang }} <span class="qs-sub">{{ repo.owner }}</span></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div id="api">
+        <h3 class="i18n_head">{{ strings.api | default('API') }}</h3>
+        <h4 id="language">&nbsp;</h4>
+        <div id="quickstart" class="qsholder"></div>
+        <p id="quickstart-guide"><a href="https://github.com/msgpack/website/blob/master/README.md#how-to-list-up-your-project-on-msgpackorg">{{ strings.list_your_impl | default('List your implementation here!') }}</a></p>
+
         {% for repo in repos %}
-          <article class="project">
-            <h2><a href="{{ repo.html_url }}">{{ repo.full_name }}</a></h2>
-            {% if repo.msgpack_repo_homepage %}
-              <p>Homepage: <a href="{{ repo.msgpack_repo_homepage }}">{{ repo.msgpack_repo_homepage }}</a></p>
-            {% endif %}
-            <section class="quickstart">
-              {{ repo.msgpack_quickstart_html | safe }}
-            </section>
-          </article>
+          <div id="qs-{{ repo.msgpack_repo_id }}" class="qs">
+            <h4>
+              {% if repo.msgpack_repo_homepage %}
+                <a href="{{ repo.msgpack_repo_homepage }}" target="_blank">{{ repo.full_name }} <span class="qs-url">{{ repo.msgpack_repo_homepage }}</span></a>
+              {% else %}
+                <a href="{{ repo.html_url }}" target="_blank">{{ repo.full_name }}</a>
+              {% endif %}
+            </h4>
+            {{ repo.msgpack_quickstart_html | safe }}
+          </div>
         {% endfor %}
-      {% endif %}
-    </main>
+      </div>
+    </section>
 
-    <footer>
-      <p>Generated by modernized TypeScript toolchain.</p>
-    </footer>
-  </body>
+    <section id="related">
+      <h3>{{ strings.related_projects | default('Related projects') }}</h3>
+
+      <div class="paragraphs">
+        <h4><a href="https://github.com/dotcloud/zerorpc-python">ZeroRPC</a> by DotCloud</h4>
+        <p>zerorpc is a flexible RPC implementation based on zeromq and messagepack. Service APIs exposed with zerorpc are called "zeroservices".</p>
+
+        <h4><a href="https://github.com/pfi/pficommon">pficommon</a> by Preferred Infrastructure, Inc.</h4>
+        <p>General purpose C++ library for Preferred Infrastructure, Inc. It includes MessagePack-RPC implementation for C++</p>
+      </div>
+    </section>
+
+    <div id="json-to-msgpack">
+      <h3>JSON <span class="bytes" id="json-bytes"></span></h3>
+      <textarea id="json-text" type="text">{"compact":true,"schema":0}</textarea>
+      <h3>MessagePack (hex) <span class="bytes" id="msgpack-bytes"></span> <span class="bytes" id="msgpack-percent"></span></h3>
+      <textarea readonly id="msgpack-text"></textarea>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <div id="thanks">
+        <p>MessagePack &trade; Copyright &copy; 2008-2021 Sadayuki Furuhashi</p>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>

@@ -25,7 +25,7 @@ function tweakQuickstartHtml(html: string) {
     .replace(/<(\/?)(h4)/g, '<$1h8');
 }
 
-async function getQuickstartHtml(octokit: Octokit, owner: string, repo: string, default_branch: string) {
+async function getQuickstartHtml(octokit: InstanceType<typeof Octokit>, owner: string, repo: string, default_branch: string) {
   for (const fname of QUICKSTART_FILES) {
     try {
       const res = await octokit.repos.getContent({ owner, repo, path: fname, ref: default_branch });
@@ -54,16 +54,28 @@ async function getQuickstartHtml(octokit: Octokit, owner: string, repo: string, 
   return null;
 }
 
-async function searchRepos(octokit: Octokit) {
+async function searchRepos(octokit: InstanceType<typeof Octokit>) {
   let items: any[] = [];
-  let page = 1;
-  while (true) {
-    const res = await octokit.search.repos({ q: 'msgpack.org in:description', per_page: 100, page });
-    if (!res.data.items || res.data.items.length === 0) break;
-    items = items.concat(res.data.items as any[]);
-    page++;
+
+  // Search for both msgpack.org and msgpack.io
+  const queries = ['msgpack.org in:description', 'msgpack.io in:description'];
+
+  for (const query of queries) {
+    let page = 1;
+    while (true) {
+      const res = await octokit.search.repos({ q: query, per_page: 100, page });
+      if (!res.data.items || res.data.items.length === 0) break;
+      items = items.concat(res.data.items as any[]);
+      page++;
+    }
   }
-  return items;
+
+  // Remove duplicates based on full_name
+  const uniqueItems = items.filter((item, index, arr) =>
+    arr.findIndex(i => i.full_name === item.full_name) === index
+  );
+
+  return uniqueItems;
 }
 
 async function generate() {
@@ -91,16 +103,23 @@ async function generate() {
     }
   } else {
     const repos = await searchRepos(octokit);
-    console.log(`Found ${repos.length} repositories matching 'msgpack.org'`);
+    console.log(`Found ${repos.length} repositories matching 'msgpack.org' or 'msgpack.io'`);
 
     // collect details for each repo
     for (const repo of repos) {
       try {
         if (repo.fork) continue;
         const desc: string = repo.description || '';
-        const m = /msgpack\.org\[([^\]]+)\]/i.exec(desc);
-        if (!m) continue;
-        const lang = m[1];
+
+        // Check for both msgpack.org and msgpack.io patterns
+        const orgMatch = /msgpack\.org\[([^\]]+)\]/i.exec(desc);
+        const ioMatch = /msgpack\.io\[([^\]]+)\]/i.exec(desc);
+
+        if (!orgMatch && !ioMatch) continue;
+
+        // Use msgpack.io language if present, otherwise msgpack.org
+        const lang = ioMatch ? ioMatch[1] : orgMatch![1];
+        const boost = !!ioMatch; // boost if msgpack.io is mentioned
 
         const ownerRepo = repo.full_name.split('/');
         const owner = ownerRepo[0];
@@ -118,10 +137,11 @@ async function generate() {
           full_name: repo.full_name,
           owner: owner,
           html_url: repo.html_url,
-          msgpack_stars: repo.stargazers_count
+          msgpack_stars: repo.stargazers_count,
+          msgpack_boost: boost
         });
 
-        console.log(`Collected ${repo.full_name} for lang=${lang}`);
+        console.log(`Collected ${repo.full_name} for lang=${lang}${boost ? ' (boosted)' : ''}`);
       } catch (err) {
         console.error('Error processing repo', repo.full_name, err);
       }
@@ -146,6 +166,7 @@ async function generate() {
     owner: string;
     html_url: string;
     msgpack_stars: number;
+    msgpack_boost: boolean;
   };
 
   // group by language and sort
@@ -159,14 +180,22 @@ async function generate() {
     grouped[lang].sort((a, b) => a.full_name.localeCompare(b.full_name));
   }
 
-  // sort by language, then by stars descending
+  // sort by language, then by boost (msgpack.io first), then by stars descending
   collected.sort((a, b) => {
+    // First sort by language
     if (a.msgpack_lang !== b.msgpack_lang) {
       let result = a.msgpack_lang.localeCompare(b.msgpack_lang, undefined, { sensitivity: 'base' });
       if (result !== 0) {
         return result;
       }
     }
+
+    // Then by boost (boosted repos first)
+    if (a.msgpack_boost !== b.msgpack_boost) {
+      return b.msgpack_boost ? 1 : -1; // boosted (true) comes first
+    }
+
+    // Finally by stars descending
     return b.msgpack_stars - a.msgpack_stars;
   });
 

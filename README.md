@@ -16,12 +16,13 @@ with specific tags and put their summary to the website.
     * Alternative: ```msgpack.org[ProjectName]``` for standard listing
     * ```ProjectName``` is typically the name of a programming language such as ```ruby```, ```python```, ```java```, etc.
 2. Add one of following files to the root directory of your github repository:
+    1. msgpack.io.md
     1. msgpack.org.md
-    2. README.md
-    3. README.markdown
-    4. README.rdoc
-    5. README.rst
-    6. README
+    1. README.md
+    1. README.markdown
+    1. README.rdoc
+    1. README.rst
+    1. README
 3. Wait a moment. [The crawler](https://github.com/AArnott/msgpack-website/blob/main/src/update-index.ts) visits your github repository daily.
 
 ### Tag Priority
@@ -35,7 +36,7 @@ Projects are ranked within each language category as follows:
 
 **Note**: If your repository description contains both `msgpack.io[language]` and `msgpack.org[language]` tags, it will be listed only once with priority ranking.
 
-The crawler copies content of a file to msgpack.io website. Former file name has priority (```msgpack.org.md``` > ```README.md``` > ...).
+The crawler copies content of a file to msgpack.io website. Former file name has priority (```msgpack.io.md``` > ```msgpack.org.md``` > ```README.md``` > ...).
 
 ## Examples
 

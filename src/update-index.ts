@@ -6,7 +6,7 @@ import MarkdownIt from 'markdown-it';
 import nunjucks from 'nunjucks';
 import cheerio from 'cheerio';
 
-const QUICKSTART_FILES = ['msgpack.org.md', 'README.md', 'README.markdown', 'README.rdoc', 'README.rst', 'README'];
+const QUICKSTART_FILES = ['msgpack.io.md', 'msgpack.org.md', 'README.md', 'README.markdown', 'README.rdoc', 'README.rst', 'README'];
 
 const md = new MarkdownIt({ html: true });
 

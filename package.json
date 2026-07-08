@@ -4,30 +4,29 @@
   "private": true,
   "description": "MessagePack website - modernized TypeScript + Node build",
   "scripts": {
-    "generate": "ts-node src/update-index.ts",
-    "generate:cached": "USE_CACHE=true ts-node src/update-index.ts",
-    "start": "ts-node src/update-server.ts",
-    "dev": "ts-node-dev --respawn --transpile-only src/update-server.ts",
+    "generate": "tsx src/update-index.ts",
+    "generate:cached": "tsx src/update-index.ts --use-cache",
+    "start": "tsx src/update-server.ts",
+    "dev": "tsx watch src/update-server.ts",
     "build": "npm run generate"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.0",
     "cheerio": "^1.2.0",
+    "express": "^5.0.0",
     "fs-extra": "^11.1.1",
     "js-yaml": "^5.0.0",
     "markdown-it": "^14.0.0",
-    "nunjucks": "^3.2.4",
-    "express": "^5.0.0"
+    "nunjucks": "^3.2.4"
   },
   "devDependencies": {
-    "typescript": "^6.0.0",
-    "ts-node": "^10.9.1",
-    "ts-node-dev": "^2.0.0",
-    "@types/node": "^24.0.0",
+    "typescript": "^7.0.0",
     "@types/express": "^5.0.0",
-    "@types/nunjucks": "^3.2.6",
     "@types/fs-extra": "^11.0.0",
     "@types/js-yaml": "^4.0.5",
-    "@types/markdown-it": "^14.0.0"
+    "@types/markdown-it": "^14.0.0",
+    "@types/node": "^24.0.0",
+    "@types/nunjucks": "^3.2.6",
+    "tsx": "^4.23.0"
   }
 }

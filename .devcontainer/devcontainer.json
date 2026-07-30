@@ -1,6 +1,6 @@
 {
   "name": "msgpack-website (Node.js 18, TypeScript)",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:26",
   "customizations": {
     "vscode": {
       "extensions": [
